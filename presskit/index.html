@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rillroot press kit</title>
+<meta name="description" content="Press kit for Rillroot, a cozy logic puzzle for Android: fact sheet, description, trailer, screenshots, logos and contact.">
+<meta property="og:title" content="Rillroot press kit">
+<meta property="og:description" content="A cozy logic puzzle about thirsty plants. Fact sheet, trailer, screenshots and logos.">
+<meta property="og:image" content="https://rillroot.luisscripcaru.com/presskit/og.jpg">
+<meta property="og:url" content="https://rillroot.luisscripcaru.com/presskit/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png">
+<style>
+@font-face{font-family:Nunito;font-weight:400;font-display:swap;src:url(fonts/Nunito-Regular.ttf) format("truetype")}
+@font-face{font-family:Nunito;font-weight:700;font-display:swap;src:url(fonts/Nunito-Bold.ttf) format("truetype")}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(fonts/Nunito-ExtraBold.ttf) format("truetype")}
+:root{
+  --paper:#FFF8EC; --page:#F5EEDD; --shade:#F4E9D4; --edge:#E3D2B4;
+  --ink:#6B4A35; --text:#7A5236; --moss:#86AD5E; --moss-text:#4F6B35;
+  --blue:#8FB0C6; --blue-band:#6E92AA; --blue-light:#BCD3E0;
+  --coral:#EC7267; --gold:#F2C661;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--page);color:var(--text);font:400 17px/1.6 Nunito,system-ui,sans-serif}
+a{color:var(--blue-band);font-weight:700}
+a:hover{color:var(--ink)}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+
+header{background:linear-gradient(#D7E5EC,var(--blue-light));border-bottom:3px solid var(--ink)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;align-items:center;padding:40px 16px 32px}
+.hero .kicker{font-weight:800;letter-spacing:.06em;font-size:14px;color:var(--blue-band);margin:0 0 8px}
+.hero .wordmark{width:min(380px,100%);margin:0 0 10px -6px}
+.hero p.tag{font-size:21px;font-weight:700;color:var(--ink);margin:0 0 20px}
+.hero .art{border:3px solid var(--ink);border-radius:18px;overflow:hidden;box-shadow:0 6px 0 var(--ink)}
+.buttons{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border:2px solid var(--ink);border-radius:14px;box-shadow:0 3px 0 var(--ink);
+  text-decoration:none;font-weight:800;color:var(--ink);background:var(--paper)}
+.btn.go{background:var(--moss);color:#fff;text-shadow:0 1px 0 var(--moss-text)}
+.btn:hover{transform:translateY(1px);box-shadow:0 2px 0 var(--ink);color:var(--ink)}
+.btn.go:hover{color:#fff}
+
+main.wrap{padding-top:32px;padding-bottom:56px}
+.layout{display:grid;grid-template-columns:300px 1fr;gap:28px;align-items:start}
+.card{background:var(--paper);border:2px solid var(--ink);border-radius:16px;padding:20px 22px;box-shadow:0 4px 0 var(--edge)}
+aside.card{position:sticky;top:16px}
+aside h2{margin-top:0}
+dl{margin:0}
+dt{font-weight:800;color:var(--ink);font-size:14px;letter-spacing:.03em;margin-top:14px}
+dt:first-child{margin-top:0}
+dd{margin:2px 0 0}
+h2{font-weight:800;color:var(--ink);font-size:26px;line-height:1.2;margin:0 0 12px}
+h3{font-weight:800;color:var(--ink);font-size:19px;margin:20px 0 6px}
+section{margin-bottom:28px}
+.content p{margin:0 0 12px}
+ul.rules{padding-left:20px;margin:0 0 12px}
+ul.rules li{margin-bottom:4px}
+.lily{float:right;width:150px;margin:0 0 8px 12px}
+
+.video{position:relative;aspect-ratio:16/9;border:2px solid var(--ink);border-radius:12px;overflow:hidden;background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.small{font-size:15px}
+
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.shots a{display:block;border:2px solid var(--ink);border-radius:12px;overflow:hidden;background:var(--shade)}
+.shots img{aspect-ratio:9/20;object-fit:cover;width:100%}
+.shots a:hover{outline:3px solid var(--moss)}
+
+.files{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
+.file{background:var(--shade);border:2px solid var(--edge);border-radius:12px;padding:12px;text-decoration:none;color:var(--text);font-weight:400}
+.file .thumb{height:110px;display:flex;align-items:center;justify-content:center;margin-bottom:8px;
+  background:repeating-conic-gradient(#EDE2CC 0 25%,#F7EFDF 0 50%) 0 0/16px 16px;border-radius:8px}
+.file .thumb img{max-height:100px;width:auto;max-width:100%}
+.file b{display:block;color:var(--ink)}
+.file:hover{border-color:var(--moss)}
+
+footer{border-top:2px solid var(--edge);padding:20px 0 32px;font-size:15px}
+
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr;padding-top:28px}
+  .layout{grid-template-columns:1fr}
+  aside.card{position:static}
+}
+@media (max-width:560px){
+  .shots{grid-template-columns:repeat(2,1fr)}
+  .lily{width:110px}
+  h2{font-size:23px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hero">
+    <div>
+      <p class="kicker">PRESS KIT</p>
+      <img class="wordmark" src="logos/rillroot-wordmark.png" alt="Rillroot" width="1280" height="400">
+      <p class="tag">A cozy logic puzzle about thirsty plants.</p>
+      <div class="buttons">
+        <a class="btn go" href="https://play.google.com/store/apps/details?id=com.dangasama.garden">Pre-register on Google Play</a>
+        <a class="btn" href="https://dangasama.itch.io/rillroot">Play the free demo</a>
+        <a class="btn" href="rillroot-presskit.zip">Download everything (.zip)</a>
+      </div>
+    </div>
+    <div class="art"><img src="art/rillroot-key-art-preview.webp" alt="Three solved Rillroot boards and the lily mascot cheering" width="1024" height="500"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="layout">
+
+    <aside class="card">
+      <h2>Fact sheet</h2>
+      <dl>
+        <dt>Developer</dt><dd>Danga-sama, a one-person studio in Romania</dd>
+        <dt>Platform</dt><dd>Android (Google Play)<br>Free web demo on <a href="https://dangasama.itch.io/rillroot">itch.io</a></dd>
+        <dt>Status</dt><dd>Pre-registration open on Google Play, launching soon</dd>
+        <dt>Price</dt><dd>Free, with optional in-app purchases and ads</dd>
+        <dt>Genre</dt><dd>Logic puzzle, cozy, casual</dd>
+        <dt>Languages</dt><dd>English, Romanian</dd>
+        <dt>Plays offline</dt><dd>Yes, with cloud saves when online</dd>
+        <dt>Press contact</dt><dd><a href="mailto:hello@luisscripcaru.com">hello@luisscripcaru.com</a></dd>
+        <dt>Follow</dt><dd>
+          <a href="https://www.youtube.com/@rillroot">YouTube</a> ·
+          <a href="https://x.com/rillroot">X</a> ·
+          <a href="https://www.instagram.com/rillroot">Instagram</a> ·
+          <a href="https://bsky.app/profile/rillroot.bsky.social">Bluesky</a> ·
+          <a href="https://www.threads.com/@rillroot">Threads</a>
+        </dd>
+      </dl>
+    </aside>
+
+    <div class="content">
+
+      <section class="card">
+        <h2>About the game</h2>
+        <img class="lily" src="art/rillroot-lily-cheer.png" alt="The spider lily mascot cheering with a bamboo stick" width="274" height="250">
+        <p><strong>Short:</strong> Rillroot is a cozy logic puzzle for Android. Lead a root from every thirsty plant to a pond, cover every tile, and never let two roots cross.</p>
+        <p><strong>Longer:</strong> Every board is a little garden of chubby plants and stone ponds. Drag a root from a plant to the water and it grows behind your finger. The rules fit in one breath, but the short way is often the trap: a root that takes the nearest pond can leave a corner of soil nobody can reach. Every level has exactly one answer, there's no timer and no lives, and you can pull a root back up whenever you change your mind.</p>
+        <p>As you play, new plants join the garden with rules of their own, and they mix on the same boards. There's a new daily puzzle every day and a daily race against other players.</p>
+
+        <h3>How it plays</h3>
+        <ul class="rules">
+          <li>Drag a root from a plant to a pond. Each pond feeds one root.</li>
+          <li>Roots never cross.</li>
+          <li>Cover every tile to finish the board.</li>
+        </ul>
+
+        <h3>New plants, new rules</h3>
+        <ul class="rules">
+          <li><strong>Bamboo</strong> roots turn exactly once.</li>
+          <li>The <strong>Lotus</strong> needs two roots, each to its own pond.</li>
+          <li><strong>Mushroom</strong> pairs share one thread.</li>
+          <li><strong>Logs</strong> let roots pass straight through, even across each other.</li>
+        </ul>
+
+        <h3>Features</h3>
+        <ul class="rules">
+          <li>Hundreds of hand-checked levels, from a tiny 4×5 garden to Extreme 7×11 boards, with more added over time.</li>
+          <li>A daily challenge, easy on Monday and hard by Sunday.</li>
+          <li>A daily race, plus weekly and all-time leaderboards.</li>
+          <li>Daily and weekly quests.</li>
+          <li>Three helpers for when you're stuck: Grow, Weeder and Rain.</li>
+          <li>A colour-blind option that marks every plant with its own flower.</li>
+        </ul>
+        <p class="small">Launch gift: everyone who pre-registers on Google Play gets the First Bloom frame when the game comes out.</p>
+      </section>
+
+      <section class="card">
+        <h2>Trailer</h2>
+        <div class="video">
+          <iframe src="https://www.youtube-nocookie.com/embed/1tSCpK12N0I" title="Rillroot trailer" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="small" style="margin-top:10px">
+          <a href="https://www.youtube.com/watch?v=1tSCpK12N0I">Watch on YouTube</a> ·
+          <a href="video/rillroot-trailer.mp4" download>Download the MP4</a> (1080p, 35 s, 21 MB)
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Screenshots</h2>
+        <p class="small">Tap one for the full 1080×2400 PNG.</p>
+        <div class="shots">
+          <a href="screens/rillroot-board.png"><img src="screens/rillroot-board-preview.webp" alt="A board half solved, with roots from three plants" loading="lazy" width="432" height="960"></a>
+          <a href="screens/rillroot-solved.png"><img src="screens/rillroot-solved-preview.webp" alt="A solved board with every tile covered" loading="lazy" width="432" height="960"></a>
+          <a href="screens/rillroot-win.png"><img src="screens/rillroot-win-preview.webp" alt="The win screen" loading="lazy" width="432" height="960"></a>
+          <a href="screens/rillroot-power-ups.png"><img src="screens/rillroot-power-ups-preview.webp" alt="The Grow, Weeder and Rain helpers" loading="lazy" width="432" height="960"></a>
+          <a href="screens/rillroot-race.png"><img src="screens/rillroot-race-preview.webp" alt="The daily race" loading="lazy" width="432" height="960"></a>
+          <a href="screens/rillroot-daily.png"><img src="screens/rillroot-daily-preview.webp" alt="The daily challenge" loading="lazy" width="432" height="960"></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Logos and art</h2>
+        <div class="files">
+          <a class="file" href="logos/rillroot-wordmark.png" download>
+            <div class="thumb"><img src="logos/rillroot-wordmark.png" alt=""></div>
+            <b>Wordmark</b>PNG, transparent, 1280×400
+          </a>
+          <a class="file" href="logos/rillroot-icon-1024.png" download>
+            <div class="thumb"><img src="logos/rillroot-icon-512.png" alt=""></div>
+            <b>App icon</b>PNG, 1024×1024 (also <span>512</span>)
+          </a>
+          <a class="file" href="art/rillroot-key-art-1024x500.png" download>
+            <div class="thumb"><img src="art/rillroot-key-art-preview.webp" alt=""></div>
+            <b>Key art</b>PNG, 1024×500
+          </a>
+          <a class="file" href="art/rillroot-gameplay.gif" download>
+            <div class="thumb"><img src="art/rillroot-gameplay.gif" alt="" loading="lazy"></div>
+            <b>Gameplay GIF</b>A board solved, 400×604
+          </a>
+          <a class="file" href="art/rillroot-lily-cheer.png" download>
+            <div class="thumb"><img src="art/rillroot-lily-cheer.png" alt=""></div>
+            <b>The lily</b>PNG, transparent
+          </a>
+        </div>
+        <p class="small" style="margin-top:14px">You're welcome to use anything on this page in coverage of Rillroot.</p>
+      </section>
+
+      <section class="card">
+        <h2>About the developer</h2>
+        <p>Danga-sama is a one-person studio in Romania. Rillroot is its first game: the design, code, levels and trailer are made by one developer, and the characters are being hand-painted by an artist for launch.</p>
+        <p>Want to cover Rillroot, need a different size or format, or have a question? Write to <a href="mailto:hello@luisscripcaru.com">hello@luisscripcaru.com</a>. No key is needed to try it: the <a href="https://dangasama.itch.io/rillroot">demo</a> runs in the browser, on a computer or a phone.</p>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Rillroot © 2026 Danga-sama · <a href="https://play.google.com/store/apps/details?id=com.dangasama.garden">Google Play</a> · <a href="https://dangasama.itch.io/rillroot">itch.io</a></div>
+</footer>
+
+</body>
+</html>

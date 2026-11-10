@@ -1,0 +1,36 @@
+RILLROOT - FACT SHEET
+
+A cozy logic puzzle about thirsty plants.
+
+Developer: Danga-sama, a one-person studio in Romania
+Platform: Android (Google Play). Free web demo: https://dangasama.itch.io/rillroot
+Status: pre-registration open on Google Play, launching soon
+Price: free, with optional in-app purchases and ads
+Languages: English, Romanian
+Google Play: https://play.google.com/store/apps/details?id=com.dangasama.garden
+Trailer: https://www.youtube.com/watch?v=1tSCpK12N0I
+Press kit: https://rillroot.luisscripcaru.com/presskit/
+Press contact: hello@luisscripcaru.com
+
+SHORT
+Rillroot is a cozy logic puzzle for Android. Lead a root from every thirsty plant to a pond, cover every tile, and never let two roots cross.
+
+HOW IT PLAYS
+- Drag a root from a plant to a pond. Each pond feeds one root.
+- Roots never cross.
+- Cover every tile to finish the board.
+
+NEW PLANTS, NEW RULES
+- Bamboo roots turn exactly once.
+- The Lotus needs two roots, each to its own pond.
+- Mushroom pairs share one thread.
+- Logs let roots pass straight through, even across each other.
+
+FEATURES
+- Hundreds of levels, from a tiny 4x5 garden to Extreme 7x11 boards
+- A daily challenge, easy on Monday and hard by Sunday
+- A daily race, plus weekly and all-time leaderboards
+- Daily and weekly quests
+- Three helpers for when you're stuck: Grow, Weeder and Rain
+- Colour-blind option
+- Launch gift for everyone who pre-registers: the First Bloom frame
